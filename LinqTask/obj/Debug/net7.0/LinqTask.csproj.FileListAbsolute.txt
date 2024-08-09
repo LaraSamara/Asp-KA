@@ -1,0 +1,14 @@
+C:\Users\BisanCo\Desktop\Back End\LinqTask\obj\Debug\net7.0\LinqTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BisanCo\Desktop\Back End\LinqTask\obj\Debug\net7.0\LinqTask.AssemblyInfoInputs.cache
+C:\Users\BisanCo\Desktop\Back End\LinqTask\obj\Debug\net7.0\LinqTask.AssemblyInfo.cs
+C:\Users\BisanCo\Desktop\Back End\LinqTask\obj\Debug\net7.0\LinqTask.csproj.CoreCompileInputs.cache
+C:\Users\BisanCo\Desktop\Back End\LinqTask\bin\Debug\net7.0\LinqTask.exe
+C:\Users\BisanCo\Desktop\Back End\LinqTask\bin\Debug\net7.0\LinqTask.deps.json
+C:\Users\BisanCo\Desktop\Back End\LinqTask\bin\Debug\net7.0\LinqTask.runtimeconfig.json
+C:\Users\BisanCo\Desktop\Back End\LinqTask\bin\Debug\net7.0\LinqTask.dll
+C:\Users\BisanCo\Desktop\Back End\LinqTask\bin\Debug\net7.0\LinqTask.pdb
+C:\Users\BisanCo\Desktop\Back End\LinqTask\obj\Debug\net7.0\LinqTask.dll
+C:\Users\BisanCo\Desktop\Back End\LinqTask\obj\Debug\net7.0\refint\LinqTask.dll
+C:\Users\BisanCo\Desktop\Back End\LinqTask\obj\Debug\net7.0\LinqTask.pdb
+C:\Users\BisanCo\Desktop\Back End\LinqTask\obj\Debug\net7.0\LinqTask.genruntimeconfig.cache
+C:\Users\BisanCo\Desktop\Back End\LinqTask\obj\Debug\net7.0\ref\LinqTask.dll
