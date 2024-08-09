@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hD9Y7tZIv87KanoaaqN6npRG/mJLEAXYryCoP2HheMriGhLAAmRKHiQNMcCTJat7zv2uh/kGrVBVt/lnAyBo3g==",
+  "dgSpecHash": "x4aCyoDEz2wImYbl12dZFP1CoeRNzvU2kdlen/rW2yamOaJm6NtpucRsOTYF0s8CR1ljHz5pQfHnhKZCapotvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\BisanCo\\Desktop\\Back End\\EFTaskTwo-CRUD\\EFTaskTwo-CRUD.csproj",
+  "projectFilePath": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\EFTaskTwo-CRUD\\EFTaskTwo-CRUD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BisanCo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\BisanCo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "runtimeOptions": {
     "tfm": "net7.0",
@@ -10,17 +9,4 @@
       "System.Reflection.NullabilityInfoContext.IsSupported": true
     }
   }
-=======
-{
-  "runtimeOptions": {
-    "tfm": "net7.0",
-    "framework": {
-      "name": "Microsoft.NETCore.App",
-      "version": "7.0.0"
-    },
-    "configProperties": {
-      "System.Reflection.NullabilityInfoContext.IsSupported": true
-    }
-  }
->>>>>>> 70d0ec8 (Upload EF Tasks)
 }

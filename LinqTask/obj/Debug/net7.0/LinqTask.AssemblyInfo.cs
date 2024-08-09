@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinqTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59aa3acf0c8d1e5e7bacf8dc67d815bbb0f66333")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinqTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinqTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mSJl7jxzD19Yr599Scp0AznONdhQJ14FK3exeDEQ8SAkirWd7m5iH3/MZnUN8saUCimaLBJpOYOixyvbXrGT+A==",
+  "dgSpecHash": "HHj6Jvps9KWy5dOjX8qeCeJUsWnMmd5GUIILSfHggv7iuwwhBnsTvY01xXJX3Dw69mxhNYL4HEHMicuVZ2YbIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\BisanCo\\Desktop\\Back End\\LinqTask\\LinqTask.csproj",
+  "projectFilePath": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\LinqTask\\LinqTask.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

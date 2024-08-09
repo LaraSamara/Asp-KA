@@ -3466,11 +3466,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BisanCo\\Desktop\\Back End\\EFTaskTwo-CRUD\\EFTaskTwo-CRUD.csproj",
+      "projectUniqueName": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\EFTaskTwo-CRUD\\EFTaskTwo-CRUD.csproj",
       "projectName": "EFTaskTwo-CRUD",
-      "projectPath": "C:\\Users\\BisanCo\\Desktop\\Back End\\EFTaskTwo-CRUD\\EFTaskTwo-CRUD.csproj",
+      "projectPath": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\EFTaskTwo-CRUD\\EFTaskTwo-CRUD.csproj",
       "packagesPath": "C:\\Users\\BisanCo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BisanCo\\Desktop\\Back End\\EFTaskTwo-CRUD\\obj\\",
+      "outputPath": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\EFTaskTwo-CRUD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BisanCo\\AppData\\Roaming\\NuGet\\NuGet.Config",

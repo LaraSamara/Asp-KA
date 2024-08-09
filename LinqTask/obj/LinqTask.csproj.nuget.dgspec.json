@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BisanCo\\Desktop\\Back End\\LinqTask\\LinqTask.csproj": {}
+    "C:\\Users\\BisanCo\\Desktop\\BackEnd\\LinqTask\\LinqTask.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BisanCo\\Desktop\\Back End\\LinqTask\\LinqTask.csproj": {
+    "C:\\Users\\BisanCo\\Desktop\\BackEnd\\LinqTask\\LinqTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BisanCo\\Desktop\\Back End\\LinqTask\\LinqTask.csproj",
+        "projectUniqueName": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\LinqTask\\LinqTask.csproj",
         "projectName": "LinqTask",
-        "projectPath": "C:\\Users\\BisanCo\\Desktop\\Back End\\LinqTask\\LinqTask.csproj",
+        "projectPath": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\LinqTask\\LinqTask.csproj",
         "packagesPath": "C:\\Users\\BisanCo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BisanCo\\Desktop\\Back End\\LinqTask\\obj\\",
+        "outputPath": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\LinqTask\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BisanCo\\AppData\\Roaming\\NuGet\\NuGet.Config",
