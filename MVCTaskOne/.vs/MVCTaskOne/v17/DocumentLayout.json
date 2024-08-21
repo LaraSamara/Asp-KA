@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\MVCTaskOne\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A52451A-DD3C-42B7-9665-2F775653948D}|MVCTaskOne\\MVCTaskOne.csproj|c:\\users\\bisanco\\desktop\\backend\\mvctaskone\\mvctaskone\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A52451A-DD3C-42B7-9665-2F775653948D}|MVCTaskOne\\MVCTaskOne.csproj|solutionrelative:mvctaskone\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A52451A-DD3C-42B7-9665-2F775653948D}|MVCTaskOne\\MVCTaskOne.csproj|c:\\users\\bisanco\\desktop\\backend\\mvctaskone\\mvctaskone\\views\\students\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A52451A-DD3C-42B7-9665-2F775653948D}|MVCTaskOne\\MVCTaskOne.csproj|solutionrelative:mvctaskone\\views\\students\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A52451A-DD3C-42B7-9665-2F775653948D}|MVCTaskOne\\MVCTaskOne.csproj|c:\\users\\bisanco\\desktop\\backend\\mvctaskone\\mvctaskone\\views\\students\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A52451A-DD3C-42B7-9665-2F775653948D}|MVCTaskOne\\MVCTaskOne.csproj|solutionrelative:mvctaskone\\views\\students\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A52451A-DD3C-42B7-9665-2F775653948D}|MVCTaskOne\\MVCTaskOne.csproj|c:\\users\\bisanco\\desktop\\backend\\mvctaskone\\mvctaskone\\views\\students\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A52451A-DD3C-42B7-9665-2F775653948D}|MVCTaskOne\\MVCTaskOne.csproj|solutionrelative:mvctaskone\\views\\students\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A52451A-DD3C-42B7-9665-2F775653948D}|MVCTaskOne\\MVCTaskOne.csproj|c:\\users\\bisanco\\desktop\\backend\\mvctaskone\\mvctaskone\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7A52451A-DD3C-42B7-9665-2F775653948D}|MVCTaskOne\\MVCTaskOne.csproj|solutionrelative:mvctaskone\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A52451A-DD3C-42B7-9665-2F775653948D}|MVCTaskOne\\MVCTaskOne.csproj|c:\\users\\bisanco\\desktop\\backend\\mvctaskone\\mvctaskone\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A52451A-DD3C-42B7-9665-2F775653948D}|MVCTaskOne\\MVCTaskOne.csproj|solutionrelative:mvctaskone\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\MVCTaskOne\\MVCTaskOne\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MVCTaskOne\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\MVCTaskOne\\MVCTaskOne\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MVCTaskOne\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-21T09:22:18.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\MVCTaskOne\\MVCTaskOne\\Views\\Students\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MVCTaskOne\\Views\\Students\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\MVCTaskOne\\MVCTaskOne\\Views\\Students\\Delete.cshtml",
+              "RelativeToolTip": "MVCTaskOne\\Views\\Students\\Delete.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T09:12:35.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\MVCTaskOne\\MVCTaskOne\\Views\\Students\\Update.cshtml",
+              "RelativeDocumentMoniker": "MVCTaskOne\\Views\\Students\\Update.cshtml",
+              "ToolTip": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\MVCTaskOne\\MVCTaskOne\\Views\\Students\\Update.cshtml",
+              "RelativeToolTip": "MVCTaskOne\\Views\\Students\\Update.cshtml",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T09:12:09.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\MVCTaskOne\\MVCTaskOne\\Views\\Students\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVCTaskOne\\Views\\Students\\Create.cshtml",
+              "ToolTip": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\MVCTaskOne\\MVCTaskOne\\Views\\Students\\Create.cshtml",
+              "RelativeToolTip": "MVCTaskOne\\Views\\Students\\Create.cshtml",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAAAE4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T09:11:46.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetAll.cshtml",
+              "DocumentMoniker": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\MVCTaskOne\\MVCTaskOne\\Views\\Students\\GetAll.cshtml",
+              "RelativeDocumentMoniker": "MVCTaskOne\\Views\\Students\\GetAll.cshtml",
+              "ToolTip": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\MVCTaskOne\\MVCTaskOne\\Views\\Students\\GetAll.cshtml",
+              "RelativeToolTip": "MVCTaskOne\\Views\\Students\\GetAll.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAAEgAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T09:11:08.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\MVCTaskOne\\MVCTaskOne\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "MVCTaskOne\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\MVCTaskOne\\MVCTaskOne\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "MVCTaskOne\\Controllers\\StudentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T09:07:52.698Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
