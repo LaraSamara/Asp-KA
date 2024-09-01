@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVCTaskOne")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b4fd293952d1f0115d89e899b2631b6c44f2c93")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13c9d051c78e124efc86d23fae43b84edc9836c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVCTaskOne")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MVCTaskOne")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

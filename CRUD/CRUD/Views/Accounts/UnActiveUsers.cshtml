@@ -1,0 +1,28 @@
+﻿@model IEnumerable<User>
+@{
+    ViewData["Title"] = "UnActiveUsers";
+}
+
+<h1>All Un ActiveUsers</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>Email</td>
+            <td>Password</td>
+            <td>Active Action</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Name</td>
+                <td>@user.Email</td>
+                <td>@user.Password</td>
+                <td><a asp-controller="Accounts" asp-action="ToActive" asp-route-id=@user.Id>Active</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -1,0 +1,23 @@
+﻿@model User
+@{
+    ViewData["Title"] = "Update";
+}
+<h1>Update Employee</h1>
+
+<form asp-action="Edit" asp-controller="Accounts">
+    <div class="my-3">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" value = "@Model.Name" class="form-control" />
+    </div>
+    <div class="my-3">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" value="@Model.Email" class="form-control" />
+    </div>
+    <div class="my-3">
+        <label asp-for="Password"></label>
+        <input asp-for="Password" class="form-control" />
+    </div>
+    @Html.HiddenFor(user => user.Id)
+    <button class="btn btn-outline-danger">Update</button>
+</form>
+

@@ -1,0 +1,17 @@
+﻿@model User
+@{
+    ViewData["Title"] = "SignIn";
+}
+
+<form asp-action="SignIn" asp-controller="Accounts">
+    <div class="my-3">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+    <div class="my-3">
+        <label asp-for="Password"></label>
+        <input asp-for="Password" class="form-control" />
+    </div>
+    <button class="btn btn-outline-danger">Sign In</button>
+</form>
+
