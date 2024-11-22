@@ -28,7 +28,7 @@ namespace Identity.Controllers
                 Email = model.Email,
                 UserName = model.Email,
                 PhoneNumber = model.Phone,
-                //EmailConfirmed = true
+                EmailConfirmed = true
             };
             var result = await userManager.CreateAsync(User, model.Password);
             if(result.Succeeded)
