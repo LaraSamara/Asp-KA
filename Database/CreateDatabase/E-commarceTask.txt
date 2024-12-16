@@ -1,0 +1,80 @@
+CREATE DATABASE ECommarceTask
+
+USE ECommarceTask
+
+CREATE TABLE Customers (
+customer_id INT PRIMARY KEY IDENTITY(1,1),
+first_name varchar(20) NOT NULL,
+last_name varchar(20),
+phone varchar(13) NOT NULL UNIQUE,
+email varchar(40) NOT NULL UNIQUE,
+street varchar(20) NOT NULL,
+city varchar(20) NOT NULL,
+state varchar(20) NOT NULL,
+zip_code varchar(5) NOT NULL
+);
+
+CREATE TABLE Stores(
+store_id INT PRIMARY KEY IDENTITY(1,1),
+store_name VARCHAR(20) NOT NULL UNIQUE,
+phone VARCHAR(13) NOT NULL UNIQUE,
+email VARCHAR(40) NOT NULL UNIQUE,
+street VARCHAR(20) NOT NULL,
+city VARCHAR(20) NOT NULL,
+state VARCHAR(20) NOT NULL,
+zip_code VARCHAR(5) NOT NULL
+);
+
+CREATE TABLE Staffs(
+staff_id INT PRIMARY KEY IDENTITY(1,1),
+first_name VARCHAR(20) NOT NULL,
+last_name VARCHAR(20),
+phone VARCHAR(13) NOT NULL UNIQUE,
+email VARCHAR(40) NOT NULL UNIQUE,
+active CHAR(1) DEFAULT '1',
+store_id INT REFERENCES Stores(store_id),
+manager_id INT REFERENCES Staffs(staff_id),
+);
+
+CREATE TABLE Orders(
+order_id INT PRIMARY KEY IDENTITY(1,1),
+customer_id INT REFERENCES Customers(customer_id),
+order_status VARCHAR(20) DEFAULT 'PENDING',
+order_date DATE NOT NULL,
+required_date DATE NOT NULL,
+shipping_date DATE,
+store_id INT  REFERENCES Stores(store_id),
+staff_id INT REFERENCES Staffs(staff_id),
+);
+CREATE TABLE Categories(
+category_id INT PRIMARY KEY IDENTITY(1,1),
+category_name VARCHAR(20) NOT NULL UNIQUE,
+);
+CREATE TABLE Brands(
+brand_id INT PRIMARY KEY IDENTITY(1,1),
+brand_name VARCHAR(20) NOT NULL UNIQUE,
+);
+CREATE TABLE Products(
+product_id INT PRIMARY KEY IDENTITY(1,1),
+product_name VARCHAR(20) NOT NULL UNIQUE,
+brand_id INT REFERENCES Brands(brand_id),
+category_id INT REFERENCES Categories(category_id),
+model_year VARCHAR(4) NOT NULL,
+list_price INT 
+);
+CREATE TABLE Stocks(
+store_id INT  REFERENCES Stores(store_id) ,
+product_id INT REFERENCES Products(product_id),
+quantity INT NOT NULL
+PRIMARY KEY(store_id,product_id)
+);
+CREATE TABLE Order_items(
+order_id INT  REFERENCES Orders(order_id) ,
+item_id INT IDENTITY(1,1),
+product_id INT REFERENCES Products(product_id),
+quantity INT NOT NULL,
+list_price INT ,
+discount INT ,
+PRIMARY KEY(order_id,item_id)
+);
+ 

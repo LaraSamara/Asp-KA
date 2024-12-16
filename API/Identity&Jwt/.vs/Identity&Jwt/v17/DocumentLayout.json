@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\API\\Identity\u0026Jwt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8579F04A-B001-4039-ABB5-FD20D8AEF727}|Identity\u0026Jwt\\Identity\u0026Jwt.csproj|c:\\users\\bisanco\\desktop\\backend\\api\\identity\u0026jwt\\identity\u0026jwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8579F04A-B001-4039-ABB5-FD20D8AEF727}|Identity\u0026Jwt\\Identity\u0026Jwt.csproj|solutionrelative:identity\u0026jwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8579F04A-B001-4039-ABB5-FD20D8AEF727}|Identity\u0026Jwt\\Identity\u0026Jwt.csproj|c:\\users\\bisanco\\desktop\\backend\\api\\identity\u0026jwt\\identity\u0026jwt\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8579F04A-B001-4039-ABB5-FD20D8AEF727}|Identity\u0026Jwt\\Identity\u0026Jwt.csproj|solutionrelative:identity\u0026jwt\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8579F04A-B001-4039-ABB5-FD20D8AEF727}|Identity\u0026Jwt\\Identity\u0026Jwt.csproj|c:\\users\\bisanco\\desktop\\backend\\api\\identity\u0026jwt\\identity\u0026jwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8579F04A-B001-4039-ABB5-FD20D8AEF727}|Identity\u0026Jwt\\Identity\u0026Jwt.csproj|solutionrelative:identity\u0026jwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8579F04A-B001-4039-ABB5-FD20D8AEF727}|Identity\u0026Jwt\\Identity\u0026Jwt.csproj|c:\\users\\bisanco\\desktop\\backend\\api\\identity\u0026jwt\\identity\u0026jwt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -37,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,8 +57,7 @@
               "RelativeToolTip": "Identity\u0026Jwt\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-02T20:20:13.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T20:20:13.849Z"
             },
             {
               "$type": "Document",
@@ -70,8 +69,7 @@
               "RelativeToolTip": "Identity\u0026Jwt\\Controllers\\DepartmentController.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAC0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T20:18:45.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T20:18:45.316Z"
             },
             {
               "$type": "Document",
@@ -83,25 +81,24 @@
               "RelativeToolTip": "Identity\u0026Jwt\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-02T18:16:54.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T18:16:54.328Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AuthServices.cs",
               "DocumentMoniker": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\API\\Identity\u0026Jwt\\Identity\u0026Jwt\\Services\\AuthServices.cs",
               "RelativeDocumentMoniker": "Identity\u0026Jwt\\Services\\AuthServices.cs",
-              "ToolTip": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\API\\Identity\u0026Jwt\\Identity\u0026Jwt\\Services\\AuthServices.cs",
-              "RelativeToolTip": "Identity\u0026Jwt\\Services\\AuthServices.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAACEAAAAbAAAA",
+              "ToolTip": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\API\\Identity\u0026Jwt\\Identity\u0026Jwt\\Services\\AuthServices.cs*",
+              "RelativeToolTip": "Identity\u0026Jwt\\Services\\AuthServices.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T18:14:09.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\API\\Identity\u0026Jwt\\Identity\u0026Jwt\\Program.cs",
               "RelativeDocumentMoniker": "Identity\u0026Jwt\\Program.cs",
@@ -119,8 +116,7 @@
               "DocumentMoniker": "ViewDataWindow_MSSQL__/./IdentityApi/True/SqlTable/dbo.AspNetUsers.sql",
               "ToolTip": "dbo.AspNetUsers [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-02T20:16:21.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T20:16:21.419Z"
             },
             {
               "$type": "Document",
@@ -132,8 +128,7 @@
               "RelativeToolTip": "Identity\u0026Jwt\\Controllers\\AccountController.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAYwBoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T23:31:57.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T23:31:57.048Z"
             }
           ]
         },
