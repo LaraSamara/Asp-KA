@@ -16,7 +16,7 @@ namespace Workshop.Infrastructure.Repositories
             this.context = context;
         }
 
-        public async Task<IEnumerable<ItemsDto>> GetItemsAsync()
+        public async Task<PagedResponse> GetItemsAsync(int PageIndex, int PageSize)
         {
             // Manual 
             /*
@@ -35,11 +35,24 @@ namespace Workshop.Infrastructure.Repositories
             */
             // Mapster
             var Config = MappingProfile.Config;
-            var Items = await context.Items
+            var Items =  context.Items
                                .ProjectToType<ItemsDto>(Config)
-                               .ToListAsync();
+                               .AsQueryable();
+            return await PaginationAsync(Items, PageIndex, PageSize);
 
-            return Items;
+        }
+        private async Task<PagedResponse> PaginationAsync(IQueryable<ItemsDto> Quary, int PageIndex, int PageSize)
+        {
+            var Skip = (PageIndex - 1) * PageSize;
+            var Items = await Quary.Skip(Skip).Take(PageSize).ToListAsync();
+            var Dto = new PagedResponse
+            {
+                PageIndex = PageIndex,
+                PageSize = PageSize,
+                TotalItems = Quary.Count(),
+                Items = Items
+            };
+            return Dto;
         }
     }
 }

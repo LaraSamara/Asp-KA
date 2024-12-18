@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yNeH/CqndVY6c1qM0JcB8DCX3XufUnn/qseT95WiHaTPrtn+50UQx8+x699/+P1dX+qQO4zUv1K/Gg7tUcAXvA==",
+  "dgSpecHash": "d5u8jhKZdWSJtx2B7AAwg2kqLAqcFaJAVaMNOJyU4cPTXThO8LDJq+3/B3xdSj4ZuidIssD/nG1ZPCL5fJkHJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\API\\APIWorkshop\\Workshop\\Workshop.Core\\Workshop.Core.csproj",
+  "projectFilePath": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\API\\Workshop\\Workshop.Core\\Workshop.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BisanCo\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
     "C:\\Users\\BisanCo\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",

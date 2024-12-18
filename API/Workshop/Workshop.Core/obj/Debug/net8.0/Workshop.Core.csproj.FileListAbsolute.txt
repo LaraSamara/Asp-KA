@@ -24,3 +24,16 @@ C:\Users\BisanCo\Desktop\BackEnd\APIWorkshop\Workshop\Workshop.Core\obj\Debug\ne
 C:\Users\BisanCo\Desktop\BackEnd\APIWorkshop\Workshop\Workshop.Core\obj\Debug\net8.0\refint\Workshop.Core.dll
 C:\Users\BisanCo\Desktop\BackEnd\APIWorkshop\Workshop\Workshop.Core\obj\Debug\net8.0\Workshop.Core.pdb
 C:\Users\BisanCo\Desktop\BackEnd\APIWorkshop\Workshop\Workshop.Core\obj\Debug\net8.0\ref\Workshop.Core.dll
+C:\Users\BisanCo\Desktop\BackEnd\API\Workshop\Workshop.Core\bin\Debug\net8.0\Workshop.Core.deps.json
+C:\Users\BisanCo\Desktop\BackEnd\API\Workshop\Workshop.Core\bin\Debug\net8.0\Workshop.Core.dll
+C:\Users\BisanCo\Desktop\BackEnd\API\Workshop\Workshop.Core\bin\Debug\net8.0\Workshop.Core.pdb
+C:\Users\BisanCo\Desktop\BackEnd\API\Workshop\Workshop.Core\obj\Debug\net8.0\Workshop.Core.csproj.AssemblyReference.cache
+C:\Users\BisanCo\Desktop\BackEnd\API\Workshop\Workshop.Core\obj\Debug\net8.0\Workshop.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BisanCo\Desktop\BackEnd\API\Workshop\Workshop.Core\obj\Debug\net8.0\Workshop.Core.AssemblyInfoInputs.cache
+C:\Users\BisanCo\Desktop\BackEnd\API\Workshop\Workshop.Core\obj\Debug\net8.0\Workshop.Core.AssemblyInfo.cs
+C:\Users\BisanCo\Desktop\BackEnd\API\Workshop\Workshop.Core\obj\Debug\net8.0\Workshop.Core.csproj.CoreCompileInputs.cache
+C:\Users\BisanCo\Desktop\BackEnd\API\Workshop\Workshop.Core\obj\Debug\net8.0\Workshop.Core.sourcelink.json
+C:\Users\BisanCo\Desktop\BackEnd\API\Workshop\Workshop.Core\obj\Debug\net8.0\Workshop.Core.dll
+C:\Users\BisanCo\Desktop\BackEnd\API\Workshop\Workshop.Core\obj\Debug\net8.0\refint\Workshop.Core.dll
+C:\Users\BisanCo\Desktop\BackEnd\API\Workshop\Workshop.Core\obj\Debug\net8.0\Workshop.Core.pdb
+C:\Users\BisanCo\Desktop\BackEnd\API\Workshop\Workshop.Core\obj\Debug\net8.0\ref\Workshop.Core.dll

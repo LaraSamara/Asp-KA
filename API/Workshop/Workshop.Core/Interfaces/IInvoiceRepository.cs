@@ -10,6 +10,6 @@ namespace Workshop.Core.Interfaces
     public interface IInvoiceRepository
     {
         Task<string> CreateInvoiceAsync(int CustomerId);
-        Task<IEnumerable<InvoiceReciptDto>> GetInvoiceRecipt(int CustomerId, int InvoiceId);
+        Task<InvoiceRecipetDto> GetInvoiceRecipt(int CustomerId, int InvoiceId);
     }
 }

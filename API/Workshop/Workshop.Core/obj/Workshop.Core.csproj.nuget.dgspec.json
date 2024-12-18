@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BisanCo\\Desktop\\BackEnd\\API\\APIWorkshop\\Workshop\\Workshop.Core\\Workshop.Core.csproj": {}
+    "C:\\Users\\BisanCo\\Desktop\\BackEnd\\API\\Workshop\\Workshop.Core\\Workshop.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BisanCo\\Desktop\\BackEnd\\API\\APIWorkshop\\Workshop\\Workshop.Core\\Workshop.Core.csproj": {
+    "C:\\Users\\BisanCo\\Desktop\\BackEnd\\API\\Workshop\\Workshop.Core\\Workshop.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\API\\APIWorkshop\\Workshop\\Workshop.Core\\Workshop.Core.csproj",
+        "projectUniqueName": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\API\\Workshop\\Workshop.Core\\Workshop.Core.csproj",
         "projectName": "Workshop.Core",
-        "projectPath": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\API\\APIWorkshop\\Workshop\\Workshop.Core\\Workshop.Core.csproj",
+        "projectPath": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\API\\Workshop\\Workshop.Core\\Workshop.Core.csproj",
         "packagesPath": "C:\\Users\\BisanCo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\API\\APIWorkshop\\Workshop\\Workshop.Core\\obj\\",
+        "outputPath": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\API\\Workshop\\Workshop.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BisanCo\\AppData\\Roaming\\NuGet\\NuGet.Config",

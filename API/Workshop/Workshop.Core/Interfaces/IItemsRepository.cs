@@ -10,7 +10,8 @@ namespace Workshop.Core.Interfaces
 {
     public interface IItemsRepository
     {
-        Task<IEnumerable<ItemsDto>> GetItemsAsync();
+        Task<PagedResponse> GetItemsAsync(int PageIndex, int PageSize);
+        Task<PagedResponse> PaginationAsync(IQueryable<ItemsDto> Quary, int PageIndex, int PageSize);
 
     }
 }

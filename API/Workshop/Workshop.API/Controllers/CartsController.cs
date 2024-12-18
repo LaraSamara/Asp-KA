@@ -13,11 +13,13 @@ namespace Workshop.API.Controllers
     [Authorize]
     public class CartsController : ControllerBase
     {
-        private readonly ICartRepository cartRepository;
+        //private readonly ICartRepository cartRepository;
+        private readonly IUnitOfWork unitOfWork;
 
-        public CartsController(ICartRepository CartRepository)
+        public CartsController(IUnitOfWork unitOfWork)
         {
-            cartRepository = CartRepository;
+            //cartRepository = CartRepository;
+            this.unitOfWork = unitOfWork;
         }
         [HttpPost]
         [Route("/AddToCart")]
@@ -35,7 +37,7 @@ namespace Workshop.API.Controllers
                 {
                     return Unauthorized("Invalid Token!!");
                 }
-                var Result = await cartRepository.AddBulkQuantityToCartAsync(Dto, UserId.Value);
+                var Result = await unitOfWork.CartRepository.AddBulkQuantityToCartAsync(Dto, UserId.Value);
                 if(Result.Equals("Item Add To Cart Successfully"))
                 {
                     return Ok(new { Message = "Item Add To Cart Successfully" });
@@ -65,7 +67,7 @@ namespace Workshop.API.Controllers
             }
             try
             {
-                var Result = await cartRepository.AddOneQuantityToCartAsync(Dto, UserId.Value);
+                var Result = await unitOfWork.CartRepository.AddOneQuantityToCartAsync(Dto, UserId.Value);
                 if (Result.StartsWith("Success"))
                 {
                     return Ok(Result);
@@ -79,7 +81,7 @@ namespace Workshop.API.Controllers
                 return Unauthorized("Invalid Operation");
             }
         }
-        [HttpPost]
+        [HttpGet]
         [Route("/GetCartItems")]
         public async Task<IActionResult> GetAllItemsFromCartAsync()
         {
@@ -95,7 +97,7 @@ namespace Workshop.API.Controllers
             }
             try
             {
-                var Result = await cartRepository.GetAllItemsFromCartAsync(UserId.Value);
+                var Result = await unitOfWork.CartRepository.GetAllItemsFromCartAsync(UserId.Value);
                 if (Result.Any())
                 {
                     return Ok(Result);

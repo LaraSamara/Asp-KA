@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Workshop.Core.Dto_s.Invoice
 {
-    public class InvoiceReciptDto
+    public class InvoiceItemDto
     {
         public string Name { get; set; }
         public double Quantity { get; set; }

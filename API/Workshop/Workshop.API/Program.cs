@@ -39,11 +39,11 @@ namespace Workshop.API
                     options.Password.RequireNonAlphanumeric = true;
                 }).AddEntityFrameworkStores<AppDbContext>();
 
-            builder.Services.AddScoped<IAuthRepository, AuthRepository>();
-            builder.Services.AddScoped<IItemsRepository, ItemsRepository>();
-            builder.Services.AddScoped<ICartRepository, CartRepository>();
-            builder.Services.AddScoped<IInvoiceRepository, InvoiceRepository>();
-
+            //builder.Services.AddScoped<IAuthRepository, AuthRepository>();
+            //builder.Services.AddScoped<IItemsRepository, ItemsRepository>();
+            //builder.Services.AddScoped<ICartRepository, CartRepository>();
+            //builder.Services.AddScoped<IInvoiceRepository, InvoiceRepository>();
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             var Config = TypeAdapterConfig.GlobalSettings;
             builder.Services.AddSingleton(Config);
 

@@ -20,7 +20,7 @@ namespace Workshop.Core.Models
         // small units of Balance
         public int Factor {  get; set; }
         public double RecervedQuantiry {  get; set; }
-        public DateTime LastUpdate { get; set; }
+        public DateTime? LastUpdate { get; set; }
         public Units Units { get; set; }
         public Items Items { get; set; }
         public Stores Stores { get; set; }

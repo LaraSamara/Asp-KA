@@ -8,16 +8,18 @@ namespace Workshop.API.Controllers
     [ApiController]
     public class ItemsController : ControllerBase
     {
-        private readonly IItemsRepository itemsRepository;
+        //private readonly IItemsRepository itemsRepository;
+        private readonly IUnitOfWork unitOfWork;
 
-        public ItemsController(IItemsRepository ItemsRepository)
+        public ItemsController(IUnitOfWork unitOfWork)
         {
-            itemsRepository = ItemsRepository;
+            //itemsRepository = ItemsRepository;
+            this.unitOfWork = unitOfWork;
         }
         [HttpGet]
         [Route("/GetItems")]
-        public async  Task<IActionResult> Get() { 
-            var Items = await itemsRepository.GetItemsAsync();
+        public async  Task<IActionResult> Get(int PageIndex, int PageSize) { 
+            var Items = await unitOfWork.ItemsRepository.GetItemsAsync(PageIndex, PageSize);
             if(Items == null)
             {
                 return NotFound(new { Message = "No Items Founds"});

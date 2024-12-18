@@ -10,11 +10,13 @@ namespace Workshop.API.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        private readonly IAuthRepository authRepository;
+        //private readonly IAuthRepository authRepository;
+        private readonly IUnitOfWork unitOfWork;
 
-        public AuthController(IAuthRepository AuthRepository)
+        public AuthController(IUnitOfWork unitOfWork)
         {
-            authRepository = AuthRepository;
+            //authRepository = AuthRepository;
+            this.unitOfWork = unitOfWork;
         }
         [Route("/SignUp")]
         [HttpPost]
@@ -33,7 +35,7 @@ namespace Workshop.API.Controllers
                 Zones_Id = Dto.Zones_Id,
                 Classifications_Id = Dto.Classifications_Id,
             };
-            var Result = await authRepository.SignupAsync(User, Dto.Password);
+            var Result = await unitOfWork.AuthRepository.SignupAsync(User, Dto.Password);
             return new JsonResult (Result);
         }
         [Route("/SignIn")]
@@ -46,7 +48,7 @@ namespace Workshop.API.Controllers
             }
             try
             {
-                var Token = await authRepository.SigninAsync(Dto.Email, Dto.Password);
+                var Token = await unitOfWork.AuthRepository.SigninAsync(Dto.Email, Dto.Password);
                 if (Token == null)
                 {
                     return Unauthorized(new { Message = "Invalid Data" });

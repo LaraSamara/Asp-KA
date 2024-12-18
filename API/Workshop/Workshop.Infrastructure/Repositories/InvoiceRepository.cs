@@ -102,9 +102,34 @@ namespace Workshop.Infrastructure.Repositories
             return $"Success, Invoice {Invoice.Id} Created Successfully with Price {TotalPrice}";
         }
 
-        public Task<IEnumerable<InvoiceReciptDto>> GetInvoiceRecipt(int CustomerId, int InvoiceId)
+        public async Task<InvoiceRecipetDto> GetInvoiceRecipt(int CustomerId, int InvoiceId)
         {
-            throw new NotImplementedException();
+            var Invoice = await context.Invoices
+                .Include(inv => inv.InvoicesItems)
+                .ThenInclude(inv => inv.Items)
+                .FirstOrDefaultAsync(inv => inv.Custmer_Id == CustomerId && inv.Id == InvoiceId);
+
+            if(Invoice == null)
+            {
+                return null;
+            }
+            var Rescipet = new InvoiceRecipetDto
+            {
+                InvoiceId = InvoiceId,
+                NetPrice = Invoice.NetPrice,
+                CustomerId = CustomerId,
+                CreatedAt = Invoice.CreatedAt,
+                InvoiceItems = Invoice.InvoicesItems.Select(inv => new InvoiceItemDto
+                {
+                    Name = inv.Items.Name,
+                    Quantity = inv.Quantity,
+                    Price = inv.Price,
+                    Unit = context.Units.Find(inv.Unit_Id)?.Name??"UnKnown",
+                    TotalPrice = inv.Quantity * inv.Price,
+                   
+                }).ToList()
+            };
+            return Rescipet;
         }
     }
 }

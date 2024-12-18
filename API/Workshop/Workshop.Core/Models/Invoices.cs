@@ -21,7 +21,7 @@ namespace Workshop.Core.Models
         public bool IsReviewed { get; set; }
         public bool IsClosed { get; set; }
 
-
+        public IEnumerable<InvoicesDetails> InvoicesItems { get; set; } = new HashSet<InvoicesDetails>();
         public Users Users { get; set; }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GnSDSTtV1WY30NSr4kgT+/E/nN3kb1nb/23Z8edANA+eLaDMUzm7qOFJ2K9ls3swOXwU+8nUvdubGLqwgZenWg==",
+  "dgSpecHash": "QrBGvdU+xy/VZS95s9DsjQ9SeXtIq3jB2PS1T2e0mbXIQSTHOikNBKD+CSRyFgkH0AvRHP/hciUpLgrFOUNLsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\API\\APIWorkshop\\Workshop\\Workshop.API\\Workshop.API.csproj",
+  "projectFilePath": "C:\\Users\\BisanCo\\Desktop\\BackEnd\\API\\Workshop\\Workshop.API\\Workshop.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BisanCo\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\BisanCo\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
